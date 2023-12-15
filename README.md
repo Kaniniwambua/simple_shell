@@ -13,7 +13,7 @@ Usage: **simple_shell** [filename]
 To invoke **shell** , compile all '.c' files in the repository and run the resulting executable:
 
 ```
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+gcc *.c -o hsh
 /.hsh
 
 ```
